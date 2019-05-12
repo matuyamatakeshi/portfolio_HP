@@ -39,6 +39,7 @@
     background: rgba(255,255,255,0.6);
     border-radius: 15px;
     margin-top: 13px;
+    overflow: scroll;
 }
 .sitem1{
     background-image: url(https://s3-ap-northeast-1.amazonaws.com/static.amanaimages.com/imgroom/rf_preview640/10685/10685004884.jpg);
