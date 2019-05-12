@@ -1,7 +1,7 @@
 $(".slider").slick({
     dots: true,
     autoplay: true,
-    autoplaySpeed: 3400
+    autoplaySpeed: 3500
 });
 
 $('.mitem').mousemove(function () {

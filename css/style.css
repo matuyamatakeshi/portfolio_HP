@@ -1,5 +1,5 @@
 .headitem{
-    background-image: url(https://travelzaurus.com/wp-content/uploads/2017/01/CinqueTerre_eye.jpg);
+    background-image: url(../img/header.jpg);
     background-attachment: fixed;
     background-size: cover;
     height: 750px;
@@ -42,21 +42,21 @@
     overflow: scroll;
 }
 .sitem1{
-    background-image: url(https://s3-ap-northeast-1.amazonaws.com/static.amanaimages.com/imgroom/rf_preview640/10685/10685004884.jpg);
+    background-image: url(../img/sitem1.jpg);
     background-size: cover;
     height: 250px;
     color: rgba(0, 0, 0, 0.822);
     border-radius: 15px;
 }
 .sitem2{
-    background-image: url(https://www.tumlare.co.jp/guide/wp-content/uploads/2016/02/no_gei_Geirangerfjord-fn885dhm.jpg);
+    background-image: url(../img/sitem2.jpg);
     background-size: cover;
     height: 250px;
     color: rgba(0, 0, 0, 0.822);
     border-radius: 15px;
 }
 .sitem3{
-    background-image: url(https://tabizine.jp/wp-content/uploads/2016/03/56723-09.jpg);
+    background-image: url(../img/sitem3.jpg);
     background-size: cover;
     height: 250px;
     color: rgba(0, 0, 0, 0.822);
@@ -96,4 +96,13 @@
 }
 .jdditem{
     font-size: 18px;
+}
+.sectionitem3{
+    height: 300px;
+}
+footer{
+    background-image: url(../img/footer.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
 }
