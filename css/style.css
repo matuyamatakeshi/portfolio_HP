@@ -97,12 +97,23 @@
 .jdditem{
     font-size: 18px;
 }
-.sectionitem3{
-    height: 300px;
-}
 footer{
+    position: relative;
     background-image: url(../img/footer.jpg);
     background-size: cover;
     background-attachment: fixed;
-    height: 700px;
+    height: 630px;
+}
+.sectionitem3{
+    width: 30%;
+    position: absolute;
+    top: 100px;
+    right: 490px;
+    background-color: rgba(221, 238, 241, 0.6);
+    height: 200px;
+    border-radius: 15px;
+}
+.sectionitem4{
+    background-color: rgba(221, 238, 241, 0.8);
+    height: 200px;
 }
