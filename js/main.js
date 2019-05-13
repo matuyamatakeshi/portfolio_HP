@@ -19,3 +19,5 @@ $(".hitem1").mousemove(function () {
 $(".hitem1").mouseout(function () {
     $(this).text("~World Heritage~")
 });
+
+
