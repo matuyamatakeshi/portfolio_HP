@@ -10,7 +10,6 @@
     position: absolute;
     top: 30px;
     right: 40px;
-    /* position: fixed; */
     font-size: 20px;
 }
 .headitem1{
@@ -38,7 +37,7 @@
 }
 .imgmask{
     height: 90%;
-    background: rgba(255,255,255,0.6);
+    background: rgba(255, 255, 255, 0.726);
     border-radius: 15px;
     margin-top: 13px;
     overflow: scroll;
@@ -84,6 +83,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.badge{
+    color: white;
 }
 .jpimg{
     width: 100%;
