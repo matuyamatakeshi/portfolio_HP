@@ -21,9 +21,9 @@
     font-family: serif;
 }
 .hitem1{
-    position: absolute;
-    top: 250px;
-    left: 265px;
+    position: relative;
+    top: 40%;
+    left: 20%;
     font-size: 130px;
     color: white;
     font-family: 'Homemade Apple', cursive;
@@ -105,16 +105,17 @@
 footer{
     position: relative;
     background-image: url(../img/footer.jpg);
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
     background-position: center;
     width: 100vw;
     height: 500px;
 }
 .sectionitem3{
-    position: absolute;
-    top: 110px;
-    left: 300px;
+    position: relative;
+    top: 20%;
+    left: 30%;
+    width: 100%;
 }
 .hitem2{
     font-size: 130px;
