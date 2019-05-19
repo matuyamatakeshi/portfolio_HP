@@ -1,20 +1,17 @@
 .headitem{
     background-image: url(../img/header.jpg);
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: cover;
     background-position: center;
-    width: 100%;
     height: 750px;
-    position: relative;
-}
-.navitem{
-    position: absolute;
-    top: 30px;
-    right: 40px;
-    font-size: 20px;
 }
 .headitem1{
     font-size: 44px;
+}
+.navitem{
+    position: absolute;
+    top: 25px;
+    right: 25px;
 }
 .mitem{
     color: white;
@@ -23,8 +20,6 @@
 .hitem1{
     position: relative;
     top: 40%;
-    left: 20%;
-    font-size: 130px;
     color: white;
     font-family: 'Homemade Apple', cursive;
 }
@@ -106,19 +101,12 @@ footer{
     position: relative;
     background-image: url(../img/footer.jpg);
     background-size: cover;
-    background-attachment: fixed;
     background-position: center;
-    width: 100vw;
     height: 500px;
 }
-.sectionitem3{
-    position: relative;
-    top: 20%;
-    left: 30%;
-    width: 100%;
-}
 .hitem2{
-    font-size: 130px;
+    position: relative;
+    top: 25%;
     color: white;
     font-family: 'Homemade Apple', cursive;
 }
@@ -159,4 +147,7 @@ footer{
     font-size: 20px;
     height: 130px;
     color: #9ea5a7;
+}
+p{
+    font-size: 22px;
 }
