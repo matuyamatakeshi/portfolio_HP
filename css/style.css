@@ -1,9 +1,63 @@
-.headitem{
-    background-image: url(../img/header.jpg);
-    /* background-attachment: fixed; */
-    background-size: cover;
-    background-position: center;
-    height: 750px;
+@media screen and (min-width:1000px){
+    .headitem{
+        background-image: url(../img/header.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 750px;
+    }
+    .hitem1{
+        position: relative;
+        top: 40%;
+        color: white;
+        font-family: 'Homemade Apple', cursive;
+        font-size: 130px;
+    }
+    .jpimg{
+        width: 100%;
+        height: 400px;
+    }
+    .slider{
+        width: 650px;
+        height: 400px;
+    }
+    footer{
+        position: relative;
+        background-image: url(../img/footer.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        height: 500px;
+    }
+}
+@media screen and (max-width:999px){
+    .headitem{
+        background-image: url(../img/header.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 750px;
+    }
+    .hitem1{
+        position: relative;
+        top: 40%;
+        color: white;
+        font-family: 'Homemade Apple', cursive;
+    }
+    .jpimg{
+        width: 100%;
+        height: 400px;
+    }
+    .slider{
+        width: 100%;
+        height: 400px;
+    }
+    footer{
+        position: relative;
+        background-image: url(../img/footer.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+    }
+
 }
 .headitem1{
     font-size: 44px;
@@ -16,12 +70,6 @@
 .mitem{
     color: white;
     font-family: serif;
-}
-.hitem1{
-    position: relative;
-    top: 40%;
-    color: white;
-    font-family: 'Homemade Apple', cursive;
 }
 .sectionitem1{
     color: rgb(75, 85, 94);
@@ -83,26 +131,11 @@
 .badge{
     color: white;
 }
-.jpimg{
-    width: 100%;
-    height: 400px;
-}
-.slider{
-    width: 650px;
-    height: 400px;
-}
 .jphead{
     font-size: 30px;
 }
 .jdditem{
     font-size: 18px;
-}
-footer{
-    position: relative;
-    background-image: url(../img/footer.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 500px;
 }
 .hitem2{
     position: relative;
@@ -149,5 +182,5 @@ footer{
     color: #9ea5a7;
 }
 p{
-    font-size: 22px;
+    font-size: 20px;
 }
