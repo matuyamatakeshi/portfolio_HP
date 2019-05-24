@@ -29,7 +29,7 @@ $(function () {
     var topBtn = $('.page-top');
     topBtn.hide();
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 500) {
+        if ($(this).scrollTop() > 600) {
             topBtn.fadeIn();
         } else {
             topBtn.fadeOut();
@@ -38,7 +38,7 @@ $(function () {
     topBtn.click(function () {
         $('body,html').animate({
             scrollTop: 0
-        }, 500);
+        }, 600);
         return false;
     });
 });
